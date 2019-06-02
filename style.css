@@ -1,9 +1,26 @@
+.title{
+    text-align: center;
+}
+.nav{
+    display: flex;
+	justify-content: center;
+}
+.nav__item{
+   display: inline;
+   padding: 10px;
+}
+.nav__item:hover{
+    color: aliceblue;
+    background-color: black;
+}
 body {
 	margin: 0;
+	
 }
 .container {
 	width: 100vw;
-	height: 100vh;
+	max-width: 100%;
+	height: 86vh;
 	font-family: sans-serif;
 	display: flex;
 	justify-content: center;
