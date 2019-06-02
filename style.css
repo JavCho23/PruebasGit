@@ -67,3 +67,14 @@ body {
 		margin-top: 0;
 	}
 }
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	box-sizing: border-box;
+}
+.logo {
+	font-size: 3em;
+	font-weight: bold;
+}
