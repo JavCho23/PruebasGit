@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav__item{
+   display: inline;
+   padding: 10px;
+}
+.nav__item:hover{
+    color: aliceblue;
+    background-color: black;
+}
